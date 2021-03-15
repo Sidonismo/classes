@@ -1,5 +1,5 @@
 class Person {
-  name;
+  name: String;
   constructor(name: String) {
     this.name = name;
   }
@@ -10,7 +10,7 @@ class Person {
 
 //inheritance / dědičnost
 class Emloyee extends Person {
-  id;
+  id: Number;
   constructor(name: String, id: Number) {
     super(name);
     this.id = id;
